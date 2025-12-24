@@ -38,7 +38,7 @@ conn.commit()
 st.set_page_config("Smart College Portal", "🎓", layout="centered")
 
 # ---------------- LOAD CSS ----------------
-with open("static/style.css") as f:
+with open("style.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 # ---------------- LOGIN ----------------

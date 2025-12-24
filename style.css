@@ -1,0 +1,18 @@
+body {
+    background-color: #0f172a;
+}
+
+.stButton > button {
+    background: linear-gradient(90deg,#6366f1,#9333ea);
+    color: white;
+    border-radius: 10px;
+}
+
+.stTextInput > div > div > input {
+    background: #020617;
+    color: white;
+}
+
+.stSelectbox > div {
+    background: #020617;
+}
